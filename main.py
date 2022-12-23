@@ -19,10 +19,6 @@ import numpy as np
 from overcooked_ai_py.mdp.actions import Action, Direction
 from overcooked_ai_py.mdp.overcooked_mdp import *
 from overcooked_ai_py.mdp.overcooked_env import *
-# from overcooked_ai_py.mdp.layout_generator import LayoutGenerator
-# from overcooked_ai_py.agents.agent import AgentGroup, AgentPair, GreedyHumanModel, FixedPlanAgent
-# from overcooked_ai_py.agents.benchmarking import AgentEvaluator
-from overcooked_ai_py.planning.planners import *
 from overcooked_ai_py.utils import save_pickle, load_pickle, iterate_over_files_in_dir
 
 force_compute = 0

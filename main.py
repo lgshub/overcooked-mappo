@@ -32,8 +32,8 @@ P, Obj = PlayerState, ObjectState
 # 1. cramped room
 # 2. asymmetric advantages
 # 3. coordination ring
-# 4. counter circuit
-# 5. forced coordination
+# 4. forced coordination
+# 5. counter circuit
 layout_opt = 5
 train_or_not = 0
 show_or_not = 1

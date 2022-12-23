@@ -759,8 +759,8 @@ class OvercookedGridworld(object):
                     if obj.name[0]=='s':
                        shaped_reward -= self.reward_shaping_params["LEAVE_PENALTY"]
                     new_state.add_object(player.remove_object(), i_pos)
-                    if obj.name[0]=='o' and pos in zone2:
-                       shaped_reward += self.reward_shaping_params["ONION_SET_REW"]
+                    # if obj.name[0]=='o' and pos in zone2:
+                    #    shaped_reward += self.reward_shaping_params["ONION_SET_REW"]
                     
                 elif not player.has_object() and new_state.has_object(i_pos):
                     player.set_object(new_state.remove_object(i_pos))
@@ -899,7 +899,7 @@ class OvercookedGridworld(object):
     def _handle_collisions(self, old_positions, new_positions):
         """If agents collide, they stay at their old locations"""
         if self.is_transition_collision(old_positions, new_positions):
-            self.shaped_reward -= self.reward_shaping_params["COLLISION_PENALTY"]
+            # self.shaped_reward -= self.reward_shaping_params["COLLISION_PENALTY"]
             return old_positions
         return new_positions
 

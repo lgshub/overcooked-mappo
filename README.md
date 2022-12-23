@@ -10,4 +10,4 @@ Set the 'layout_opt' to be 1~5 at the beginning of 'main.py', which correspond t
 5. counter circuit
 
 # Key files
-The featurization coding and shaped reward are given in 'overcooked-mappo/overcooked_ai_py/mdp/overcooked_mdp.py'.
+Featurization coding and shaped reward are given in 'overcooked-mappo/overcooked_ai_py/mdp/overcooked_mdp.py'.

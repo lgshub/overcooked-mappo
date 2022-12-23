@@ -1,2 +1,2 @@
 # overcooked-mappo
-a combination of MAPPO and Overcooked environment using Gym API 
+We apply MAPPO in Overcooked environment using Gym API.

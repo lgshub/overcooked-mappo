@@ -1,7 +1,4 @@
-# 输入改为当前网格边界状态
-#网络层数怎么调？ 
 
-#!/usr/bin/env python
 import sys
 import os
 # import wandb
